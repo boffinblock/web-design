@@ -3,27 +3,31 @@ import "./Home.css"
 const Home = () => {
     return (
         <>
+
+            {/* main div */}
             <div className="w-[100%]">
 
+                {/* logo/header */}
                 <div className="mt-10 ml-[160px] justify-start w-[77%] mx-auto flex">
                     <div className=" h-20 relative ">
-
-
-                    <div className="flex gap-1 items-center p-1">
+                        <div className="flex gap-1 items-center p-1">
                             <div className="outer-circle mt-3 h-12 w-12">
                                 <div className="inner-circle"></div>
                             </div>
 
-                          <div className="flex mt-1">
-                          <p className=" text-[#42284B] font-extrabold text-4xl mt-2"> liquid </p>
-                          <span className="font-extralight mt-1 text-[#906897] text-[33px]"> health </span>
-                          </div>
-                        </div> 
+                            <div className="flex mt-1">
+                                <p className=" text-[#42284B] font-extrabold text-4xl mt-2"> liquid </p>
+                                <span className="font-extralight mt-1 text-[#906897] text-[33px]"> health </span>
+                            </div>
+                        </div>
                         <p className=" flex justify-end absolute text-[#777779] bottom-2 text-[10px] p-1 font-bold right-0">by Accelerated Payments</p>
                     </div>
                 </div>
 
+                {/* second section */}
                 <div className="w-[100%] flex justify-between">
+
+                    {/* About section */}
                     <div className="w-[60%] mt-20 ml-16">
 
                         <div className="w-[77%] mx-auto">
@@ -32,7 +36,7 @@ const Home = () => {
 
                         <div className=" w-[77%] mx-auto mt-7">
                             <div className="w-[78%]">
-                            <p className="text-[30px] mx-auto font-sans text-[#3D3B3C] font-bold">No more waiting 45+ days to be paid for patients to treat today. We pay you every single day into your account.</p>
+                                <p className="text-[30px] mx-auto font-sans text-[#3D3B3C] font-bold">No more waiting 45+ days to be paid for patients to treat today. We pay you every single day into your account.</p>
                             </div>
                         </div>
 
@@ -43,18 +47,20 @@ const Home = () => {
                                 </button>
                                 <div className="border-2 border-gray-200 w-[70%]">
                                     <input type="email" placeholder="We first to know when the liquid divison offically insurance" className=" w-full h-[2.3rem] outline-none p-2 " />
-                                    
+
 
                                 </div>
-                                
+
                             </div>
                             <div className="flex justify-end mr-16">
                                 <a href="#" className="underline text-[#A2A2A2]">Learn more about the content company accpected guidelines</a>
                             </div>
-                           
+
                         </div>
 
                     </div>
+
+                    {/* Mobile screen */}
                     <div className="w-[40%] flex justify-end">
 
                         <img className="h-[38.5rem] w-[25rem]" src="src/assets/mobile.jpg" alt="" />
