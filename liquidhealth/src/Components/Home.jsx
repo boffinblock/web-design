@@ -19,18 +19,7 @@ const Home = () => {
                           <span className="font-extralight mt-1 text-[#906897] text-[33px]"> health </span>
                           </div>
                         </div> 
-
-
-
-                        {/* <div className="flex gap-1 items-center p-1">
-                            <div className="outer-circle mt-3 h-12 w-12">
-                                <div className="inner-circle"></div>
-                            </div>
-
-                           <p className=" text-[#5f3573] font-bold text-4xl mt-2"> liquid </p>
-                           <span className="font-extralight mt-2 text-[33px]"> health </span>
-                        </div> */}
-                        <p className=" flex justify-end absolute text-[#777779] bottom-2 text-[10px] p-1 font-bold right-0">by Accelerated Paymets</p>
+                        <p className=" flex justify-end absolute text-[#777779] bottom-2 text-[10px] p-1 font-bold right-0">by Accelerated Payments</p>
                     </div>
                 </div>
 
@@ -38,29 +27,29 @@ const Home = () => {
                     <div className="w-[60%] mt-20 ml-16">
 
                         <div className="w-[77%] mx-auto">
-                            <h1 className="text-5xl mx-auto font-bold">We help <span className="text-[#41ADA1]">doctors </span>forget about them darned <span className="text-[#41ADA1]">insurance payers.</span></h1>
+                            <h1 className="text-5xl mx-auto font-sans font-bold">We help <span className="text-[#41ADA1]">doctors </span>forget about them darned <span className="text-[#41ADA1]">insurance payers.</span></h1>
                         </div>
 
                         <div className=" w-[77%] mx-auto mt-7">
                             <div className="w-[78%]">
-                            <p className="text-[30px] mx-auto text-[#3D3B3C] font-bold">No more waiting 45+ days to be paid for patients to treat today. We pay you every single day into your account.</p>
+                            <p className="text-[30px] mx-auto font-sans text-[#3D3B3C] font-bold">No more waiting 45+ days to be paid for patients to treat today. We pay you every single day into your account.</p>
                             </div>
                         </div>
 
                         <div className=" w-[77%] mx-auto mt-12">
                             <div className="flex items-center">
-                                <button className="bg-[#41ADA1] border-2 h-10 w-36 ">
+                                <button className="bg-[#41ADA1] border-none outline-none border-2 h-10 w-36 ">
                                     <p className="text-white text-xl">Email</p>
                                 </button>
                                 <div className="border-2 border-gray-200 w-[70%]">
-                                    <input type="email" placeholder="We first to know when the liquid divison offically insurance" className=" w-full h-10 outline-none p-2 " />
+                                    <input type="email" placeholder="We first to know when the liquid divison offically insurance" className=" w-full h-[2.3rem] outline-none p-2 " />
                                     
 
                                 </div>
                                 
                             </div>
                             <div className="flex justify-end mr-16">
-                                <a href="#" className="underline text-[#A2A2A2]">learn more about the content company accpected guidelines</a>
+                                <a href="#" className="underline text-[#A2A2A2]">Learn more about the content company accpected guidelines</a>
                             </div>
                            
                         </div>
