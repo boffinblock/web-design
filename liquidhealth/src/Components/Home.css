@@ -1,16 +1,61 @@
 .outer-circle {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    background-color: #41ADA1;
+    background-color: #880adf;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   .inner-circle {
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
     background-color: white;
+  }
+  .font{
+    font-weight: 640;
+  }
+  .linespace{
+    line-height: 1.8;
+  }
+  body {
+    font-family: 'Eastman Grotesque', sans-serif;
+  }
+  .list2{
+    display: none !important;
+  }
+  
+
+  
+  @media screen and (max-width: 750px) {
+    .setscreen{
+      flex-direction: column;
+      width: 100%;
+    }
+    .setscreenwidth{
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0rem 0 0 2rem  !important;
+     justify-content: end !important;
+
+    }
+    .abm{
+      justify-content: flex-end !important;
+    }
+    
+  .list2{
+    display: flex !important;
+  }
+  .list1{
+    display: none !important;
+  }
+
+  .setwidth{
+    width: 100% !important;
+    margin: 2rem 0 !important;
+  }
+
+    
   }
