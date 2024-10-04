@@ -32,7 +32,7 @@ const ClaimPayment = () => {
                             </div>
                         ))}
                     </div>
-                    <p className="mt-20 text-gray-600">
+                    <p className="mt-20 text-2xl text-gray-600">
                         Our team has experience working with data from most of the major
                         softwares nationwide
                     </p>

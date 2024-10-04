@@ -7,7 +7,7 @@ const LeadershipTeam = () => {
             <div className="container mx-auto p-4 py-16">
                 <h1 className="text-3xl font-bold text-center mb-12">Leadership Team</h1>
 
-                <div className=" flex gap-3 mt-24">
+                <div className=" flex gap-3 mt-24  max-sm:flex-col">
 
                     <div className="w-[100%] flex">
 

@@ -7,8 +7,8 @@ const SuperCharge = () => {
             <div className="w-full bg-[#f0f4f9] pt-4 pb-8 md:pt-8 lg:pt-12">
 
                 <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-5xl font-nunito font-bold text-gray-800 md:text-6xl lg:text-7xl">
-                        SuperCharge Your Growth Today
+                    <h2 className="text-xl font-nunito font-bold text-gray-800 md:text-4xl lg:text-6xl">
+                        Supercharge your growth today
                     </h2>
                     <div className="w-[100%] mt-12 flex justify-between mx-auto flex-wrap md:flex-nowrap">
 
@@ -52,7 +52,7 @@ const SuperCharge = () => {
                                 </div>
                                 <h1 className="font-semibold font-nunito">
                                     Additonal top-ups <br />
-                                    <span className="text-3xl font-semibold font-nunito leading-[3rem]">Continuses</span>
+                                    <span className="text-3xl font-semibold font-nunito leading-[3rem]">Continuous</span>
                                 </h1>
                             </div>
                         </div>

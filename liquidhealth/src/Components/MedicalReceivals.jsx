@@ -32,7 +32,7 @@ const MedicalReceivals = () => {
                                 <div className=" flex justify-center">
                                     <FaHandHoldingUsd className=" h-16 w-16 text-sky-400" />
                                 </div>
-                                <h1 className=" text-blue-800 mt-3 font-nunito font-semibold text-2xl">Managing Cash Flow</h1>
+                                <h1 className=" text-blue-800 mt-3 font-nunito font-semibold text-2xl">Grow Your Bussiness</h1>
                             </div>
                         </div>
 
@@ -41,16 +41,16 @@ const MedicalReceivals = () => {
                                 <div className=" flex justify-center">
                                     <TbDeviceMobileDollar className=" h-16 w-16 text-sky-400" />
                                 </div>
-                                <h1 className=" text-blue-800 mt-3 font-nunito font-semibold text-2xl">Managing Cash Flow</h1>
+                                <h1 className=" text-blue-800 mt-3 font-nunito font-semibold text-2xl">Making Payroll</h1>
                             </div>
                         </div>
 
                     </div>
-                    <p className="mt-14 text-blue-800 text-3xl">
-                        Bridge Your Cash Flow Gap
+                    <p className="mt-14 text-blue-800 font-semibold font-nunito text-lg">
+                        Get an asset based factoring facility staring at $100,000
                     </p>
-                    <button className="mt-10 w-[8rem] rounded-lg bg-blue-800 h-10">
-                        <p className="text-white">Learn More</p>
+                    <button className="mt-10 w-[9rem] rounded-lg bg-blue-900 h-10">
+                        <p className="text-white font-nunito">Learn More</p>
 
                     </button>
 

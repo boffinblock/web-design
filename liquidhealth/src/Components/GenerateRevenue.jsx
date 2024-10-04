@@ -4,8 +4,8 @@ const GenerateRevenue = () => {
         <>
            <div className="w-full bg-[#e4e4e4] pt-6 pb-8 mt-10">
 
-<div className="w-[85%] mt-6 mx-auto flex justify-between">
-    <div className="w-[35%]">
+<div className="w-[85%] max-sm:flex-col  mt-6 mx-auto flex justify-between">
+    <div className="w-[35%] max-sm:w-full mx-auto">
         <div className="text-5xl font-bold font-nunito leading-[3.5rem]">
             Pertner With <br />
             <span className=" text-violet-700">Liquid Helath</span> <br />
@@ -16,7 +16,7 @@ const GenerateRevenue = () => {
         </div>
     </div>
 
-    <div className="w-[60%]">
+    <div className="w-[60%] max-sm:w-full mx-auto">
         <div className=" w-[60%] mx-auto justify-center">
             <h1 className="font-nunito text-gray-700 font-medium text-4xl">Do you wrok with doctors? <br />
                 <span>
@@ -32,39 +32,39 @@ const GenerateRevenue = () => {
                <ul className="">
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Accoutants</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Accountants</li>
                     </div>
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Attroneys</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Attroneys</li>
                     </div>
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Finical Advisor</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Finical Advisor</li>
                     </div>
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Management Consultent</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Management Consultent</li>
                     </div>
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Practive Broker</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Practive Broker</li>
                     </div>
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Bussiness Bankers</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Bussiness Bankers</li>
                     </div>
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Software Provider</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Software Provider</li>
                     </div>
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Medical Billing Provider</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Medical Billing Provider</li>
                     </div>
                     <div className="flex gap-1 text-center items-center">
                     <LuDot className="mt-2" />
-                    <li className="text-gray-800 mt-2">Resellers</li>
+                    <li className="text-gray-700 font-nunito font-bold mt-2">Resellers</li>
                     </div>
                 </ul>
                 <h1 className="text-3xl flex items-end bottom-9 font-nunito text-black font-bold ">Schedule a call </h1>
