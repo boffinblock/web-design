@@ -2,12 +2,12 @@ import { LuDot } from "react-icons/lu";
 const GenerateRevenue = () => {
     return (
         <>
-           <div className="w-full bg-[#e4e4e4] pt-6 pb-8 mt-10">
+           <div className="w-full bg-[#e4e4e4] pt-6 pb-8">
 
 <div className="w-[85%] max-sm:flex-col  mt-6 mx-auto flex justify-between">
     <div className="w-[35%] max-sm:w-full mx-auto">
-        <div className="text-5xl font-bold font-nunito leading-[3.5rem]">
-            Pertner With <br />
+        <div className="text-5xl font-bold font-noto leading-[3.5rem]">
+            Partner With <br />
             <span className=" text-violet-700">Liquid Helath</span> <br />
             and generate ongoing <br /> revenue.
         </div>

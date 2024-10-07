@@ -9,6 +9,8 @@ export default {
     fontFamily: {
       nunito: ['Nunito', 'sans-serif'],
       nunitoSans: ['Nunito Sans', 'sans-serif'],
+      noto: ['"Noto Sans JP"', 'sans-serif'],
+      work: ['"Work Sans"', 'sans-serif'],
     },
   },
   plugins: [],

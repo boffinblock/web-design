@@ -7,7 +7,7 @@ const Home = () => {
 
             {/* header section */}
 
-            <div className="w-[100%] flex justify-between setscreen">
+            <div className="w-[100%] flex justify-between setscreen" id="home">
 
                 {/* About section */}
                 <div className="w-[60%] setscreenwidth mt-24 ml-20">

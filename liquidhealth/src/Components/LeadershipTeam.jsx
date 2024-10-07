@@ -4,7 +4,7 @@ const LeadershipTeam = () => {
 
     return (
         <>
-            <div className="container mx-auto p-4 py-16">
+            <div className="container mx-auto p-4 py-16 shadow-md" id="partner">
                 <h1 className="text-3xl font-bold text-center mb-12">Leadership Team</h1>
 
                 <div className=" flex gap-3 mt-24  max-sm:flex-col">
@@ -126,7 +126,7 @@ const LeadershipTeam = () => {
 
                 </div>
 
-                <h1 className="text-3xl font-medium mt-12 text-gray-700 text-center mb-12">Liquid Health, by Accelerated Payments, is a family of nealry fifty passionate minds that are eager to help healthcare providers thrive. The team, consisting of decades of experience, includes top-notch executives with stellar backgrounds in technology, financial services as well as healthcare.</h1>
+                <h1 className="text-[26px] font-medium mt-12 text-gray-700 text-center mb-12">Liquid Health, by Accelerated Payments, is a family of nealry fifty passionate minds that are eager to help healthcare providers thrive. The team, consisting of decades of experience, includes top-notch executives with stellar backgrounds in technology, financial services as well as healthcare.</h1>
 
             </div>
         </>

@@ -4,7 +4,7 @@ const AccelertedPayments = () => {
     return (
         <>
             <div className=" w-full ">
-                <div className="w-[100%] max-sm:w-full max-sm:flex-col flex justify-between p-5 mt-10 ">
+                <div className="w-[100%] pb-10 border-b shadow-md max-sm:w-full max-sm:flex-col flex justify-between p-5 mt-10 ">
 
                     <div className="w-[50%] max-sm:w-full mx-auto">
 
@@ -13,8 +13,8 @@ const AccelertedPayments = () => {
                     </div>
                     <div className="w-[50%] max-sm:w-full mx-auto mt-10">
 
-                        <h1 className="font-nunito font-bold text-5xl ">Owned & Operate by an award winning global winning company </h1>
-                        <span className="font-nunito font-bold text-5xl ">-Accelerated Payments</span> 
+                        <h1 className="font-medium font-work text-[44px] ">Owned & Operate by an award winning global winning company </h1>
+                        <span className=" font-medium font-work text-[44px] ">-Accelerated Payments</span> 
 
                    <div className=" ml-6 mt-14">
                    <div className=" flex items-center gap-4  mt-8 ">

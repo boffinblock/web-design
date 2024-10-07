@@ -14,9 +14,9 @@ const ClaimPayment = () => {
     ];
     return (
         <>
-            <div className="py-20">
+            <div className="py-20" id="company">
                 <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-3xl font-nunito font-bold mb-8">
+                    <h2 className="text-3xl font-noto font-nunito font-bold mb-8">
                         A Claim Payment Acceleration Solution dedicated to
                         <br />
                         strengthening the cash flow of healthcare providers

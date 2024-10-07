@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <>
-            <div className="w-[100%] p-4 bg-[#000000] pb-11">
+            <div className="w-[100%] p-4 bg-[#000000] pb-11" id="contact"> 
                 <div className="gap-10 max-sm:flex-col flex">
 
                     <div className="w-[25%]">
@@ -21,7 +21,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="w-[25%] mt-5">
+                    <div className="w-[25%] max-sm:mx-auto mt-5">
                         <div className="">
                             <p className="text-gray-300 text-2xl" >Plan & Pricing</p>
                             <p className="text-gray-300  mt-4 text-2xl" >HIPPA & Security</p>
@@ -31,17 +31,17 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <div className="w-[25%] mt-5">
+                    <div className="w-[25%] max-sm:mx-auto mt-5">
                         <div className="">
                             <p className="text-gray-300 text-2xl" >Primary Care</p>
                             <p className="text-gray-300  mt-4 text-2xl" >Mental Health</p>
                             <p className="text-gray-300  mt-4 text-2xl" >Other Specialist</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Patient</p>
+                            <p className="text-gray-300  mt-4 text-2xl" >Patients</p>
                             <p className="text-gray-300  mt-4 text-2xl" >View Demo</p>
                         </div>
 
                     </div>
-                    <div className="w-[25%] mt-5">
+                    <div className="w-[25%] max-sm:mx-auto mt-5">
                         <div className="">
                             <p className="text-gray-300 text-2xl" >About Us</p>
                             <p className="text-gray-300  mt-4 text-2xl" >Carrers</p>

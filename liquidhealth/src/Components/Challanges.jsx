@@ -2,7 +2,7 @@
 const Challanges = () => {
     return (
         <>
-            <div className="w-[100%] py-12 bg-[#efeefc]">
+            <div className="w-[100%] py-12 bg-[#efeefc]" id="solution">
 
                 <h1 className="text-4xl max-sm:text-lg text-gray-900 font-nunito font-bold text-center">{"Let's Talk Your Challanges"}</h1>
                 <div className=" flex justify-center w-[45%] mx-auto mt-8">

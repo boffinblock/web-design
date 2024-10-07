@@ -1,4 +1,3 @@
-import Home from "./Home"
 
 const GetInTouch = () => {
   return (
@@ -67,17 +66,17 @@ const GetInTouch = () => {
       </div>
       <div className="w-[50%]   max-sm:w-full">
         <div className="w-[60%] mx-auto">
-            <h1 className="text-5xl font-nunito font-semibold text-gray-700">Regain control of your cash flow</h1>
+            <h1 className="text-5xl font-nunito font-semibold text-gray-800">Regain control of your cash flow</h1>
             
-            <p className="text-xl font-nunito text-gray-800 mt-3">Take control of your medical billing process with klaim inovative solutions.</p>
+            <p className="text-xl font-nunito text-gray-800 mt-5">Take control of your medical billing process with klaim inovative solutions.</p>
             <p className="text-xl font-nunito text-gray-800 mt-8">Wheather you are a large healthcare chain or a family-owned private practice, our solutions help streamline , your cash flow, mitigate payer payment delays,and drive hyper focus on quality of patient care. </p>
 
-            <p className="text-xl font-nunito text-gray-800 mt-5">Join us and take control of your healthcare billing process today </p>
+            <p className="text-xl font-nunito text-gray-800 mt-5">Join us and take control of your healthcare billing process today!</p>
         </div>
       </div>
       </div>
     </div>
-    <Home/>
+
    </>
   )
 }

@@ -23,3 +23,75 @@
     font-variation-settings: "wdth" 100, "YTLC" 500;
     font-style: normal;
   }
+
+  .noto-sans-jp-uniquifier {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .work-sans-uniquifier {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .noto-sans-jp-100 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+  }
+  
+  .noto-sans-jp-400 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+  }
+  
+  .noto-sans-jp-700 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Work Sans */
+  .work-sans-100 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+  }
+  
+  .work-sans-400 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+  }
+  
+  .work-sans-700 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+  }
+
+  .noto-sans-jp-regular {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Regular */
+    font-style: normal;
+  }
+  
+  .noto-sans-jp-bold {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Bold */
+  }
+  
+  /* Work Sans */
+  .work-sans-regular {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Regular */
+    font-style: normal;
+  }
+  
+  .work-sans-bold {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Bold */
+  }
