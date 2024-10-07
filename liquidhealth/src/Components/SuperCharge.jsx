@@ -7,7 +7,7 @@ const SuperCharge = () => {
             <div className="w-full bg-[#f0f4f9] pt-4 pb-8 md:pt-8 lg:pt-12">
 
                 <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-xl font-nunito font-bold text-gray-800 md:text-4xl lg:text-6xl">
+                    <h2 className="text-xl font-medium text-gray-900 md:text-4xl lg:text-5xl">
                         Supercharge your growth today
                     </h2>
                     <div className="w-[100%] mt-12 flex justify-between mx-auto flex-wrap md:flex-nowrap">
@@ -29,7 +29,7 @@ const SuperCharge = () => {
                             <p className="text-gray-800 font-nunito font-semibold text-3xl">
                                 Apply if you qualify
                             </p>
-                            <div className="xl:ml-32 md:ml-0">
+                            <div className="xl:ml-32 md:ml-0 max-sm:ml-[100px]">
                                 <div className="flex items-center gap-2 mt-8">
                                     <MdOutlineDone className="bg-violet-500 rounded-full h-4 w-4 text-white" />
                                     <h1 className="text-gray-500">12 + Month in bussiness</h1>

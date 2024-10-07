@@ -14,13 +14,13 @@ const SupportedTeam = () => {
       linkedin: <FaLinkedinIn />
     },
     {
-      name: 'Josh Roth',
+      name: 'Josh Roa',
       expertise: 'GTM & Venture Capital',
       imageUrl: '/src/assets/p6.png',
       linkedin: <FaLinkedinIn />
     },
     {
-      name: 'Josh Roth',
+      name: 'Josh adam',
       expertise: 'GTM & Venture Capital',
       imageUrl: '/src/assets/p5.png',
       linkedin: <FaLinkedinIn />
@@ -142,10 +142,10 @@ const SupportedTeam = () => {
   ];
   return (
     <>
-      <div className=" overflow-x-hidden py-12 shadow-inner">
+      <div className=" overflow-x-hidden py-12">
         {/* <div className="  sm:px-6 lg:px-8"> */}
-        <h1 className="text-3xl font-bold text-center mb-12">Supported by rockstar Team</h1>
-        <div className="  ml-[12rem] w-[97%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <h1 className="text-3xl font-semibold font-work text-center mb-12">Supported by rockstar team</h1>
+        <div className=" max-sm:mx-auto  ml-[12rem] w-[97%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {profiles.map((profile) => (
             <div
               key={profile.name}
@@ -163,7 +163,7 @@ const SupportedTeam = () => {
           ))}
         </div>
 
-        <div className=" ml-[-3rem] w-[97%] mt-6 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" max-sm:mx-auto ml-[-3rem] w-[97%] mt-6 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {profilesNo2.map((profile) => (
             <div
               key={profile.name}
@@ -181,7 +181,7 @@ const SupportedTeam = () => {
           ))}
         </div>
 
-        <div className="grid ml-[13rem] w-[93%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20 mt-6">
+        <div className=" max-sm:mx-auto grid ml-[13rem] w-[93%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20 mt-6">
           {profilesNo3.map((profile) => (
             <div
               key={profile.name}
@@ -199,11 +199,11 @@ const SupportedTeam = () => {
           ))}
         </div>
 
-        <div className="grid w-[89%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20 mt-6">
+        <div className="grid max-sm:mx-auto w-[89%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20 mt-6">
           {profilesNo4.map((profile) => (
             <div
               key={profile.name}
-              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden"
+              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden w-[320px]" 
             >
               <div className="h-12 w-12 mt-5 bg-cover" style={{ backgroundImage: `url(${profile.imageUrl})` }}></div>
               <div className="p-4">
@@ -217,7 +217,7 @@ const SupportedTeam = () => {
           ))}
         </div>
 
-        <div className="grid ml-[-5rem] w-[89%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20 mt-6">
+        <div className="grid max-sm:mx-auto ml-[-5rem] w-[89%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20 mt-6">
           {profilesNo5.map((profile) => (
             <div
               key={profile.name}
