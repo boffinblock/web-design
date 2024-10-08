@@ -1,5 +1,33 @@
+import { useState } from "react"
 
 const GetInTouch = () => {
+  const [fromData, setFormData] = useState(
+  {  name:'',
+    surname:'',
+    email:'',
+    phone:'',
+    message:''}
+  )
+
+  const handleChange = (e) => {
+    const {id, value} = e.target
+    setFormData((prev) => ({
+      ...prev , [id] : value
+    }));
+  };
+
+  const handleSubmit =  (e) => {
+    e.preventDefault()
+    console.log(fromData, 'form submitted successfully');
+    setFormData({
+      name:'',
+      surname:'',
+      email:'',
+      phone:'',
+      message:''
+    })
+  }
+
   return (
    <>
     <div className="flex items-center justify-center">
@@ -8,7 +36,7 @@ const GetInTouch = () => {
        
       <div className="max-w-lg w-[50%] max-sm:w-full mx-auto p-8 bg-white shadow-md rounded-lg">
         <h1 className="text-2xl font-bold text-blue-700 flex justify-center mb-4">Get in Touch Now</h1>
-        <form>
+        <form >
        <div className=" flex gap-4">
        <div className="form-group mb-4">
            
@@ -17,6 +45,8 @@ const GetInTouch = () => {
               id="name"
               type="text"
               placeholder="Name"
+              value={fromData.name}
+              onChange={handleChange}
             />
           </div>
           <div className="form-group mb-4">
@@ -26,6 +56,8 @@ const GetInTouch = () => {
               id="surname"
               type="text"
               placeholder="Surname"
+              value={fromData.surname}
+              onChange={handleChange}
             />
           </div>
        </div>
@@ -36,6 +68,8 @@ const GetInTouch = () => {
               id="email"
               type="email"
               placeholder="Email"
+              value={fromData.email}
+              onChange={handleChange}
             />
           </div>
           <div className="form-group mb-4">
@@ -45,6 +79,8 @@ const GetInTouch = () => {
               id="phone"
               type="tel"
               placeholder="Phone"
+              value={fromData.phone}
+              onChange={handleChange}
             />
           </div>
           <div className="form-group mb-4">
@@ -54,11 +90,14 @@ const GetInTouch = () => {
               id="message"
               rows="5"
               placeholder="Lets us know more...."
+              value={fromData.message}
+              onChange={handleChange}
             />
           </div>
           <button
             className="  text-blue-700 border-blue-600 border-2  w-full font-bold py-2 px-4 rounded focus:outline-none "
             type="submit"
+            onClick={handleSubmit}
           >
             Send Message
           </button>

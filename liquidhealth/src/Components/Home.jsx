@@ -1,7 +1,17 @@
 // import { FaDotCircle } from "react-icons/fa";
 
+import { useState } from "react";
 import "./Home.css"
 const Home = () => {
+
+    const [email, setEmail] = useState('');
+    const handleChange = (e) => {
+        setEmail(e.target.value);
+    };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(email, 'email is here');
+    }
     return (
         <>
 
@@ -23,22 +33,29 @@ const Home = () => {
                     </div>
 
                     <div className=" w-[100%] xl:ml-10 setwidth mx-auto mt-24">
-                        <div className="flex items-center border-collapse">
+
+                    <div className="flex items-center border-collapse">
+                            <form className="flex w-full " onSubmit={handleSubmit} action="">
                             <button className="bg-[#d9d9d9] border-r-0 border-[#a6a6a6] border-collapse outline-none border-2 h-[3rem] w-28 ">
                                 <p className="text-[#000000] font-semibold text-[25px]">Email</p>
                             </button>
                             <div className="border-2 border-collapse  border-[#a6a6a6] w-[70%]">
-                                <input type="email" placeholder="Sign up for an invite to the next cohort of practices" className=" w-full h-[2.8rem] max-sm:text-[12px] xl:text-[24px] md:text-[14px] text-[#a6a6a6] outline-none px-8" />
-
-
+                                <input type="email"
+                                  value={email}
+                        onChange={handleChange}
+                         placeholder="Sign up for an invite to the next cohort of practices"
+                          className=" w-full h-[2.8rem] max-sm:text-[12px] xl:text-[24px] md:text-[14px] text-[#a6a6a6] outline-none px-8" />
                             </div>
-
+                            </form>
                         </div>
+                   
                         <div className="flex justify-end w-[90%] xl:w-[83%]">
                             <p className=" text-[#4e0d7dba] mr-1 text-[20px] ">no loans, financing or credit scores required</p>
                         </div>
 
                     </div>
+
+                   
 
                 </div>
 

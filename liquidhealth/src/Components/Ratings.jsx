@@ -58,7 +58,7 @@ const Ratings = () => {
                     <div className="container mx-auto p-4 pt-6">
                         <div className="flex flex-wrap gap-3 justify-center">
                             {reviews.map((review, index) => (
-                                <div key={index} className="flex border-r border-l border-b shadow-lg shadow-neutral-300 flex-col p-5 mb-10  w-[21rem]">
+                                <div key={index} className="flex  border-r border-l border-b shadow-lg shadow-neutral-300 flex-col p-5 mb-10  w-[21rem]">
                                     <div className="flex">
                                         {Array(review.rating)
                                             .fill(null)
@@ -75,7 +75,7 @@ const Ratings = () => {
                                             ))}
                                     </div>
                                     <p className="text-gray-800 mt-4 font-semibold">{review.text}</p>
-                                    <p className="text-gray-800 mt-4 font-semibold">{review.desc}</p>
+                                    <p className="text-gray-800 mt-4 font-semibold min-h-[8rem] h-auto">{review.desc}</p>
                                     <div className=" flex items-center gap-2 mt-2">
                                         <img
                                             src={review.image}
