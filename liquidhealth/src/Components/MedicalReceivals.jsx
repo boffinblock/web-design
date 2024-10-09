@@ -8,7 +8,7 @@ const MedicalReceivals = () => {
     <div className=" w-full bg-[#f8f8fa] pb-12 pt-4">
                 {/* medical receivals and finacing */}
                 <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-6xl font-medium font-sans text-blue-900 mt-6">
+                    <h2 className="text-6xl font-medium font-hind text-blue-800 mt-6">
                         Medical Receivables Financing
 
                     </h2>
@@ -18,7 +18,7 @@ const MedicalReceivals = () => {
 
                     <div className="w-[80%] mx-auto mt-10 flex justify-between ">
 
-                        <div className=" w-[30%] h-[13rem] rounded-lg bg-white">
+                        <div className=" w-[30%] h-[13rem] rounded-lg bg-white hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out">
                             <div className="pt-10">
                                 <div className=" flex justify-center">
                                     <TfiWallet className=" h-16 w-16 text-sky-400" />
@@ -27,7 +27,7 @@ const MedicalReceivals = () => {
                             </div>
                         </div>
 
-                        <div className=" w-[30%] h-[13rem] rounded-lg bg-white">
+                        <div className=" w-[30%] h-[13rem] rounded-lg bg-white hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out">
                             <div className="pt-10">
                                 <div className=" flex justify-center">
                                     <FaHandHoldingUsd className=" h-16 w-16 text-sky-400" />
@@ -36,7 +36,7 @@ const MedicalReceivals = () => {
                             </div>
                         </div>
 
-                        <div className=" w-[30%] h-[13rem] rounded-lg bg-white">
+                        <div className=" w-[30%] h-[13rem] rounded-lg bg-white hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out">
                             <div className="pt-10">
                                 <div className=" flex justify-center">
                                     <TbDeviceMobileDollar className=" h-16 w-16 text-sky-400" />
@@ -49,8 +49,8 @@ const MedicalReceivals = () => {
                     <p className="mt-14 text-blue-800 font-bold font-nunito text-lg">
                         Get an asset based factoring facility staring at $100,000
                     </p>
-                    <button className="mt-10 w-[9rem] rounded-lg bg-blue-900 h-10">
-                        <p className="text-white font-nunito">Learn More</p>
+                    <button className="mt-10 w-[9rem] hover:bg-gray-900 rounded-lg border-2 bg-blue-900 h-10">
+                        <p className="text-white   font-nunito">LEARN MORE</p>
 
                     </button>
 

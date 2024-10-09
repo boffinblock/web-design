@@ -3,7 +3,7 @@ import { FaBagShopping } from "react-icons/fa6";
 const Ratings = () => {
     const reviews = [
         {
-            image: 'https://via.placeholder.com/150',
+            image: 'src/assets/p6.png',
             name: 'John Doe',
             text: 'I love this product!',
             desc: 'Our staff could not support our call volume. Spruce has given us the ability to communicate more efficiently with patients, even with a small staff and large call volume.',
@@ -11,7 +11,7 @@ const Ratings = () => {
             company: 'Hometown Health Center',
         },
         {
-            image: 'https://via.placeholder.com/150',
+            image: 'src/assets/p4.png',
             name: 'Jane Smith',
             text: 'This product is amazing!',
             desc: 'Spruce provided us with a seamless solution for better communication with our patients. It made things much more efficient for us.',
@@ -19,7 +19,7 @@ const Ratings = () => {
             company: 'Sunrise Wellness',
         },
         {
-            image: 'https://via.placeholder.com/150',
+            image: 'src/assets/p5.png',
             name: 'Bob Johnson',
             text: 'I\'m so happy with this product!',
             desc: 'With Spruce, patient satisfaction has improved drastically. It\'s an incredible tool for our communication needs.',
@@ -27,7 +27,7 @@ const Ratings = () => {
             company: 'Wellness Clinic Co.',
         },
         {
-            image: 'https://via.placeholder.com/150',
+            image: 'src/assets/p3.png',
             name: 'Alice Thompson',
             text: 'Excellent product with great support!',
             desc: 'The team at Spruce has made sure our staff is well-trained and equipped to use their tools effectively. Couldn\'t be happier.',
@@ -58,7 +58,7 @@ const Ratings = () => {
                     <div className="container mx-auto p-4 pt-6">
                         <div className="flex flex-wrap gap-3 justify-center">
                             {reviews.map((review, index) => (
-                                <div key={index} className="flex  border-r border-l border-b shadow-lg shadow-neutral-300 flex-col p-5 mb-10  w-[21rem]">
+                                <div key={index} className="flex hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out  border-r border-l border-b shadow-lg shadow-neutral-300 flex-col p-5 mb-10  w-[21rem]">
                                     <div className="flex">
                                         {Array(review.rating)
                                             .fill(null)

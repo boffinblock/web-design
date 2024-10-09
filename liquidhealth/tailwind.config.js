@@ -11,6 +11,8 @@ export default {
       nunitoSans: ['Nunito Sans', 'sans-serif'],
       noto: ['"Noto Sans JP"', 'sans-serif'],
       work: ['"Work Sans"', 'sans-serif'],
+      mukta: ['Mukta', 'sans-serif'],
+      hind: ['Hind', 'sans-serif'],
     },
   },
   plugins: [],

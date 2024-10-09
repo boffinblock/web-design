@@ -145,11 +145,11 @@ const SupportedTeam = () => {
       <div className=" overflow-x-hidden py-12">
         {/* <div className="  sm:px-6 lg:px-8"> */}
         <h1 className="text-3xl font-semibold font-work text-center mb-12">Supported by rockstar team</h1>
-        <div className=" max-sm:mx-auto  ml-[12rem] w-[97%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" max-sm:mx-auto  ml-[-3rem] w-[97%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {profiles.map((profile) => (
             <div
               key={profile.name}
-              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden w-[320px]"
+              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden w-[320px] hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out"
             >
               <div className="h-12 w-12 mt-5 bg-cover" style={{ backgroundImage: `url(${profile.imageUrl})` }}></div>
               <div className="p-4">
@@ -163,11 +163,11 @@ const SupportedTeam = () => {
           ))}
         </div>
 
-        <div className=" max-sm:mx-auto ml-[-3rem] w-[97%] mt-6 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" max-sm:mx-auto ml-[3rem] w-[97%] mt-6 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {profilesNo2.map((profile) => (
             <div
               key={profile.name}
-              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden  w-[320px]"
+              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden  w-[320px] hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out"
             >
               <div className="h-12 w-12 mt-5 bg-cover" style={{ backgroundImage: `url(${profile.imageUrl})` }}></div>
               <div className="p-4">
@@ -181,11 +181,11 @@ const SupportedTeam = () => {
           ))}
         </div>
 
-        <div className=" max-sm:mx-auto grid ml-[13rem] w-[93%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20 mt-6">
+        <div className=" max-sm:mx-auto grid ml-[-3rem] w-[93%] mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-20 mt-6">
           {profilesNo3.map((profile) => (
             <div
               key={profile.name}
-              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden  w-[320px]"
+              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden  w-[320px] hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out"
             >
               <div className="h-12 w-12 mt-5 bg-cover" style={{ backgroundImage: `url(${profile.imageUrl})` }}></div>
               <div className="p-4">
@@ -203,7 +203,7 @@ const SupportedTeam = () => {
           {profilesNo4.map((profile) => (
             <div
               key={profile.name}
-              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden w-[320px]" 
+              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden w-[320px] hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out" 
             >
               <div className="h-12 w-12 mt-5 bg-cover" style={{ backgroundImage: `url(${profile.imageUrl})` }}></div>
               <div className="p-4">
@@ -221,7 +221,7 @@ const SupportedTeam = () => {
           {profilesNo5.map((profile) => (
             <div
               key={profile.name}
-              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden  w-[320px]"
+              className="bg-white flex gap-2 shadow-md rounded-md overflow-hidden  w-[320px] hover:scale-110 hover:shadow-xl transition-transform duration-300 ease-in-out"
             >
               <div className="h-12 w-12 mt-5 bg-cover" style={{ backgroundImage: `url(${profile.imageUrl})` }}></div>
               <div className="p-4">

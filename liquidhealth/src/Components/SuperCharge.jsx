@@ -19,7 +19,7 @@ const SuperCharge = () => {
                                 </div>
                                 <h1 className="font-semibold mt-2 font-nunito">
                                     Apply in just <br />
-                                    <span className="text-3xl font-semibold font-nunito leading-[3.5rem]">5 Minutes</span>
+                                    <span className="text-3xl font-semibold font-nunito leading-[3.5rem]">5 minutes</span>
                                 </h1>
                             </div>
                         </div>

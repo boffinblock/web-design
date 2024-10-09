@@ -67,7 +67,7 @@ const GenerateRevenue = () => {
                     <li className="text-gray-700 font-nunito font-bold mt-2">Resellers</li>
                     </div>
                 </ul>
-                <h1 className="text-3xl flex items-end bottom-9 font-nunito text-black font-bold ">Schedule a call </h1>
+                <h1 className="text-3xl flex items-end bottom-9 font-nunito text-black font-bold ">{"Schedule a call >"} </h1>
                </div>
 
         </div>

@@ -12,13 +12,13 @@ const MedicalClaims = () => {
                     <h1 className="text-lg text-gray-700 font-nunito font-bold text-center">flow for minimal servicing fee</h1>
                 </div>
 
-                <div className="flex w-[30%] max-sm:w-full gap-6 items-center mx-auto justify-items-center mt-10">
+                <div className="flex w-[28%] max-lg:w-[51%] max-sm:w-[91%] gap-6 items-center mx-auto justify-items-center mt-10">
 
-                    <button className="border-blue-600 items-center p-2 w-32  bg-blue-800 font-nunito font-semibold text-white h-10 rounded-xl">Pre-Qualify</button>
+                    <button className="border-blue-600 hover:bg-gray-900 whitespace-nowrap items-center p-2 w-32  bg-blue-800 font-nunito font-semibold text-white h-10 rounded-xl">Pre-Qualify</button>
 
                     <div className="flex items-center gap-8">
-                    <p className="text-gray-700 font-nunito font-semibold">Get In Touch</p>
-                    <p className="font-nunito font-semibold text-blue-800">+1 893798309</p>
+                    <p className="text-gray-700 font-nunito  whitespace-nowrap  font-semibold">Get In Touch</p>
+                    <p className="font-nunito font-semibold  whitespace-nowrap  text-blue-800">+1 893798309</p>
                     </div>
 
                 </div>

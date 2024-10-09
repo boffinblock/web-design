@@ -9,7 +9,7 @@ const LeadershipTeam = () => {
 
                 <div className=" flex gap-3 mt-24  max-sm:flex-col">
 
-                    <div className="w-[100%] flex">
+                    <div className="w-[100%] flex hover:scale-105 hover:shadow-xl transition-transform duration-300 ease-in-out">
 
                         <div className="flex flex-wrap justify-center relative  bg-white border-2 rounded-xl border-gray-200 pb-10 w-[100%] ">
 
@@ -17,7 +17,7 @@ const LeadershipTeam = () => {
                                 <img className=" relative bottom-10 " src="src/assets/Copy of liquidhealth (5).png" alt="" />
                                 <div className=" flex justify-center flex-col">
                                     <h1 className="text-gray-600 font-nunito font-bold text-center">Naiil corish</h1>
-                                    <p className="text-gray-600 font-nunito font-bold text-center" >Cfo</p>
+                                    <p className="text-gray-600 font-nunito font-bold text-center" >CFO</p>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ const LeadershipTeam = () => {
                         </div>
 
                     </div>
-                    <div className="w-[100%] flex">
+                    <div className="w-[100%] flex hover:scale-105 hover:shadow-xl transition-transform duration-300 ease-in-out">
 
                         <div className="flex flex-wrap justify-center relative  bg-white border-2 rounded-xl border-gray-200 pb-10 w-[100%] ">
 
@@ -36,7 +36,7 @@ const LeadershipTeam = () => {
                                 <img className=" relative bottom-10 " src="src/assets/p3.png" alt="" />
                                 <div className=" flex justify-center flex-col">
                                     <h1 className="text-gray-600 font-nunito font-bold text-center">Ian Duffy</h1>
-                                    <p className="text-gray-600 font-nunito font-bold text-center" >Co-founder </p>
+                                    <p className="text-gray-600 font-nunito font-bold text-center" >C0-FOUNDER </p>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ const LeadershipTeam = () => {
                         </div>
 
                     </div>
-                    <div className="w-[100%] flex">
+                    <div className="w-[100%] flex hover:scale-105 hover:shadow-xl transition-transform duration-300 ease-in-out">
 
                         <div className="flex flex-wrap justify-center relative  bg-white border-2 rounded-xl border-gray-200 pb-10 w-[100%] ">
 
@@ -55,7 +55,7 @@ const LeadershipTeam = () => {
                                 <img className=" relative bottom-10 " src="src/assets/p4.png" alt="" />
                                 <div className=" flex justify-center flex-col">
                                     <h1 className="text-gray-600 font-nunito font-bold text-center">David Ingram</h1>
-                                    <p className="text-gray-600 font-nunito font-bold text-center" >Cro</p>
+                                    <p className="text-gray-600 font-nunito font-bold text-center" >CRO</p>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const LeadershipTeam = () => {
                         </div>
 
                     </div>
-                    <div className="w-[100%] flex">
+                    <div className="w-[100%] flex hover:scale-105 hover:shadow-xl transition-transform duration-300 ease-in-out">
 
                         <div className="flex flex-wrap justify-center relative  bg-white border-2 rounded-xl border-gray-200 pb-10 w-[100%] ">
 
@@ -74,7 +74,7 @@ const LeadershipTeam = () => {
                                 <img className=" relative bottom-10 " src="src/assets/p5.png" alt="" />
                                 <div className=" flex justify-center flex-col">
                                     <h1 className="text-gray-600 font-nunito font-bold text-center">Greg Duffy</h1>
-                                    <p className="text-gray-600 font-nunito font-bold text-center" >Cto + cfo</p>
+                                    <p className="text-gray-600 font-nunito font-bold text-center" >CTO + CFO</p>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const LeadershipTeam = () => {
                         </div>
 
                     </div>
-                    <div className="w-[100%] flex">
+                    <div className="w-[100%] flex hover:scale-105 hover:shadow-xl transition-transform duration-300 ease-in-out">
 
                         <div className="flex flex-wrap justify-center relative  bg-white border-2 rounded-xl border-gray-200 pb-10 w-[100%] ">
 
@@ -93,7 +93,7 @@ const LeadershipTeam = () => {
                                 <img className=" relative bottom-10 " src="src/assets/p6.png" alt="" />
                                 <div className=" flex justify-center flex-col">
                                     <h1 className="text-gray-600 font-nunito font-bold text-center">Dermot Nutly</h1>
-                                    <p className="text-gray-600 font-nunito font-bold text-center" >Cfo</p>
+                                    <p className="text-gray-600 font-nunito font-bold text-center" >MANAGER</p>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ const LeadershipTeam = () => {
                         </div>
 
                     </div>
-                    <div className="w-[100%] flex">
+                    <div className="w-[100%] flex hover:scale-105 hover:shadow-xl transition-transform duration-300 ease-in-out">
 
                         <div className="flex flex-wrap justify-center relative  bg-white border-2 rounded-xl border-gray-200 pb-10 w-[100%] ">
 
@@ -112,7 +112,7 @@ const LeadershipTeam = () => {
                                 <img className=" relative bottom-10 " src="src/assets/Copy of liquidhealth (6).png" alt="" />
                                 <div className=" flex justify-center flex-col">
                                     <h1 className="text-gray-600 font-nunito font-bold text-center">Naiil corish</h1>
-                                    <p className="text-gray-600 font-nunito font-bold text-center" >Cfo</p>
+                                    <p className="text-gray-600 font-nunito font-bold text-center" >COO</p>
                                 </div>
                             </div>
                         </div>

@@ -24,7 +24,7 @@ const AccelertedPayments = () => {
                         
                         <div className=" flex items-center gap-4  mt-8 ">
                             <MdOutlineDone className=" bg-violet-700 rounded-full h-10 w-10 text-white" />
-                            <h1 className="text-gray-800 text-5xl">45 + Countries</h1>
+                            <h1 className="text-gray-800 text-5xl">45 countries</h1>
                         </div>
                    </div>
 
