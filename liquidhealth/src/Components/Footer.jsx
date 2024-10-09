@@ -23,30 +23,30 @@ const Footer = () => {
 
                     <div className="w-[25%] max-sm:mx-auto mt-5">
                         <div className="">
-                            <p className="text-gray-300 text-2xl" >Plan & Pricing</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >HIPPA & Security</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Spruce apps</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Help Center</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Spruce Blog</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap text-2xl" >Plan & Pricing</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >HIPPA & Security</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Spruce apps</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Help Center</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Spruce Blog</p>
                         </div>
 
                     </div>
                     <div className="w-[25%] max-sm:mx-auto mt-5">
                         <div className="">
-                            <p className="text-gray-300 text-2xl" >Primary Care</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Mental Health</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Other Specialist</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Patients</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >View Demo</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap text-2xl" >Primary Care</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Mental Health</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Other Specialist</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Patients</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >View Demo</p>
                         </div>
 
                     </div>
                     <div className="w-[25%] max-sm:mx-auto mt-5">
                         <div className="">
-                            <p className="text-gray-300 text-2xl" >About Us</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Carrers</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Terms of Use</p>
-                            <p className="text-gray-300  mt-4 text-2xl" >Privacy Policy</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap text-2xl" >About Us</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Carrers</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Terms of Use</p>
+                            <p className="text-gray-300 text-center whitespace-nowrap mt-4 text-2xl" >Privacy Policy</p>
                         </div>
 
                     </div>
