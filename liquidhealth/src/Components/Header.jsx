@@ -13,7 +13,7 @@ const Header = () => {
       {/* logo/header */}
       <div className="w-[100%] fixed top-0 bg-white z-10">
         <div className=" w-[85%] h-[7rem] mx-auto flex justify-between max-sm:gap-2 items-center">
-          <a href="#" onClick={scrollToTop} className=" h-20 relative ">
+          <a href="" onClick={scrollToTop} className=" h-20 relative ">
             <div className="flex gap-1 items-center p-1">
               <div className="outer-circle mt-4 h-9 w-9">
                 <div className="inner-circle"></div>
