@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 
 const GetInTouch = () => {
   const [formData, setFormData] = useState({
@@ -137,7 +136,7 @@ const GetInTouch = () => {
                 Send Message
               </button>
             </form>
-            <ToastContainer />
+         
           </div>
           <div className="w-[50%]   max-sm:w-full">
             <div className="w-[60%] mx-auto">

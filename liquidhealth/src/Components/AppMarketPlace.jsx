@@ -27,7 +27,7 @@ const AppMarketPlace = () => {
             </button>
           </div>
         </div>
-        <div className="w-[50%] h-[92%] absolute right-4 top-0 bg-[#dce5f0] rounded-tr-3xl rounded-br-3xl rounded-bl-3xl rounded-tl-3xl flex justify-center max-sm:w-full">
+        <div className="w-[50%] lg:h-[92%] md:h-[94%] absolute right-4 top-0 bg-[#dce5f0] rounded-tr-3xl rounded-br-3xl rounded-bl-3xl rounded-tl-3xl flex justify-center max-sm:w-full">
           <div className="flex max-sm:py-16 py-40 gap-6 px-10 max-lg:flex-col">
             <div className="bg-white border-2  rounded-2xl p-14 ">
               <img

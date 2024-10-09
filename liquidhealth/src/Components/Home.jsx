@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import "./Home.css";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 
 const Home = () => {
   const [email, setEmail] = useState("");
@@ -14,8 +13,9 @@ const Home = () => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   };
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  const handleSubmit = () => {
+    // e.preventDefault()
+    console.log("button submit")
     if (!validateEmail(email)) {
       toast.error("Please enter a valid email address.");
       return;
@@ -56,12 +56,10 @@ const Home = () => {
 
           <div className=" w-[100%] xl:ml-10 setwidth mx-auto mt-24">
             <div className="flex items-center border-collapse">
-              <form
+              <div
                 className="flex w-full "
-                onSubmit={ handleSubmit}
-                action=""
               >
-                <button className="bg-[#d9d9d9] border-r-0 border-[#a6a6a6] hover:bg-blue-500  border-collapse outline-none border-2 h-[3rem] w-28 ">
+                <button onClick={handleSubmit} className="bg-[#d9d9d9] border-r-0 border-[#a6a6a6] hover:bg-blue-500  border-collapse outline-none border-2 h-[3rem] w-28 ">
                   <p className="text-[#000000] font-semibold text-[25px] hover:text-white">
                     Email
                   </p>
@@ -75,8 +73,7 @@ const Home = () => {
                     className=" w-full h-[2.8rem] max-sm:text-[12px] xl:text-[24px] md:text-[14px] text-[#a6a6a6] outline-none px-8"
                   />
                 </div>
-              </form>
-              <ToastContainer />
+              </div>
             </div>
 
             <div className="flex justify-end w-[90%] xl:w-[83%]">
